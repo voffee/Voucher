@@ -3,7 +3,7 @@
 :root {
     --page-background-color: #FFFFFF;
     --wrapper-color: #F8476C;
-    --voucher-color: #E4E7E4;
+    --voucher-color: #F8F9FB;
     --main-font-color: #000000;
     --light-font-color: #D3D3D3;
 }
@@ -27,8 +27,8 @@ body {
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    font-size: 3.5rem;
-    margin-bottom: 100px;
+    font-size: 3rem;
+    margin-bottom: 50px;
 }
 
 .voucher-container {
