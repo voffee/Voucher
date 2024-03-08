@@ -24,6 +24,14 @@ body {
     background-color: var(--page-background-color);
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
@@ -57,6 +65,16 @@ h1 {
     font-size: 1.5rem;
 }
 
+/* Button Transform Class */
+.button-transform {
+    width: 100px;
+}
+
+/* Unwrapping Class */
+.unwrap {
+    display: none;
+}
+
 .voucher-front {
     height: 140px;
     width: 400px;
@@ -72,6 +90,7 @@ h1 {
     align-items: center;
 }
 
+/* Flipping Class */
 .is-flipped {
     transform: rotateX(180deg);
     transition: transform 1.5s ease-in-out;
