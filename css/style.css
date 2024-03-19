@@ -61,8 +61,8 @@ h1 {
 
 .voucher-unwrap p {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 1.5rem;
+    font-weight: 800;
+    font-size: 1.4rem;
 }
 
 /* Button Transform Class */
@@ -184,4 +184,12 @@ h1 {
     grid-row: 3 / 4;
     align-self: center;
     justify-self: center;
+}
+
+/* Media Query */
+@media only screen and (max-width: 414px) {
+    /* iPhone XR */
+    .container {
+        flex-direction: column;
+    }
 }
